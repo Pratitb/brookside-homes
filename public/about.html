@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="output.css" />
+    <title>Brookside Homes</title>
+</head>
+<body>
+    <!-- ANNOUNCEMENT -->
+    <section class="px-4 py-2 text-center bg-gradient-to-r from-teal-200 to-slate-200">
+        <p class="text-xs italic 2xl:text-sm md:tracking-wider md:text-base">Opening this March</p>
+    </section>
+    <!-- NAVBAR -->
+    <nav class="bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+          <div class="flex justify-between">
+            <div class="flex">
+              <!-- Website Logo -->
+              <div>
+                <a href="index.html" class="flex items-center py-4 px-2">
+                  <img src="images/brookside-home-logo.png" alt="Brookside Homes" class=" md:w-60 lg:w-72 xl:w-80" />                
+                </a>
+              </div>
+            </div>
+            <!-- Primary Navbar items -->
+            <div class="hidden md:flex items-center md:gap-8 mr-8 lg:text-xl">
+                <a href="index.html" class="text-gray-500 font-normal hover:text-teal-500 transition duration-300">Home</a>
+                <a href="about.html" class="text-teal-500 border-b-2 border-teal-500 font-normal">About</a>
+                <a href="contact.html" class="text-gray-500 font-normal hover:text-teal-500 transition duration-300">Contact Us</a>
+            </div>
+            <!-- Mobile menu button -->
+            <div class="md:hidden flex items-center">
+              <button class="outline-none mobile-menu-button">
+                  <!-- prettier ignore -->
+                <svg
+                  class="w-6 h-6 text-gray-500"
+                  x-show="!showMenu"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                <path d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Mobile menu -->
+      <div class="hidden mobile-menu">
+        <ul>
+            <li><a href="index.html" class="block text-lg px-2 py-4 hover:bg-teal-500 text-center transition duration-300">Home</a></li>
+            <li class="active"><a href="about.html" class="block text-lg px-2 py-4 text-white bg-teal-500 text-center font-semibold">About</a></li>
+            <li><a href="contact.html" class="block text-lg px-2 py-4 hover:bg-teal-500 text-center transition duration-300">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- MESSAGE --------------------------------->
+    <section class="container w-full lg:max-w-2xl mx-auto text-center leading-10 mt-20">
+        <h1 class="mb-4 text-2xl font-semibold">As doctors we are well aware of the Medical, Social and Emotional needs of Senior Citizens.</h1>
+        <h2 class="text-lg tracking-wider">This project is aimed at giving them a great fulfilling life.</h2>
+    </section>
+    <!-- NEARBY POINTS -------------------------------->
+    <section class="container mt-16">
+        <h1 class="text-2xl text-center uppercase underline underline-offset-2 decoration-teal-400 mb-10 xl:text-3xl mt-20 lg:mt-60">Accessibility</h1>
+        <div class="flex flex-col text-lg gap-y-6 mx-auto text-slate-600 sm:gap-x-6 sm:justify-center md:max-w-xs xl:max-w-full xl:flex-row xl:gap-x-16">
+            <div class="flex items-center shadow-lg rounded-2xl p-4 bg-white before:content-[' '] before:w-3 before:h-3 before:z-10 before:bg-teal-400 before:rounded-full before:mr-4">
+                <p>15 mins from Mum-Pune Exp</p>
+            </div>
+            <div class="flex items-center shadow-lg rounded-2xl p-4 bg-white before:content-[' '] before:w-3 before:h-3 before:z-10 before:bg-teal-400 before:rounded-full before:mr-4">
+                <p>45 mins from Kalamboli</p>
+            </div>
+            <div class="flex items-center shadow-lg rounded-2xl p-4 bg-white before:content-[' '] before:w-3 before:h-3 before:z-10 before:bg-teal-400 before:rounded-full before:mr-4">
+                <p>Located inside ZEN County</p>
+            </div>
+        </div>
+    </section>
+    <!-- MEDICAL --------------------------------------->
+    <section class="container w-full max-w-6xl mx-auto mt-20 lg:mt-60">
+        <h1 class="text-2xl text-center underline underline-offset-2 decoration-teal-400 mb-14 xl:text-3xl"><span class="uppercase">Medical facilities</span> (Emergencies)</h1>
+        <div class="flex flex-col gap-y-4 text-slate-600 md:flex-row md:flex-wrap md:max-w-xl md:mx-auto">
+            <div class="flex items-center gap-4 md:basis-1/2">
+                <!-- prettier ignore -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
+                </svg>
+                <p class="text-xl">Accidental falls</p>
+            </div>
+            <div class="flex items-center gap-4 md:basis-1/2">
+                <!-- prettier ignore -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
+                </svg>
+                <p class="text-xl">24 Hrs Nurse</p>
+            </div>
+            <div class="flex items-center gap-4 md:basis-1/2">
+                <!-- prettier ignore -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
+                </svg>
+                <p class="text-xl">Hospital 5 mins away</p>
+            </div>
+            <div class="flex items-center gap-4 md:basis-1/2">
+                <!-- prettier ignore -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
+                </svg>
+                <p class="text-xl">Cardiac help 30 mins away</p>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- INCREASING PROBLEM -->
+    <section class="container w-full max-w-6xl mx-auto mt-20 lg:mt-60">
+        <h1 class="text-2xl text-center uppercase underline underline-offset-2 decoration-teal-400 mb-14 xl:text-3xl">An increasing problem</h1>
+        <div class="flex flex-col gap-y-4 text-lg tracking-wide leading-8 text-slate-600">
+            <div class="flex flex-col gap-y-8 justify-around mb-8 md:items-center lg:flex-row">
+                <div>
+                    <img src="images/on_site/prob-02.jpg" class="rounded-lg border border-gray-500" alt="">
+                </div>
+                <div>
+                    <img src="images/on_site/prob-01.jpg" class="rounded-lg border border-gray-500" alt="">
+                </div>
+            </div>
+            <p>According to Population Census 2011, there are nearly <span class="text-teal-500 font-semibold">104 million</span> elderly persons (aged 60 years or above) in India; 53 million females and 51 million males. </p>
+            <p>A report released by the UN Population Fund and HelpAge India suggests that the number of elderly persons is expected to <span class="text-teal-500 font-semibold">grow</span> to 173 million by 2026.</p>
+            <p>Currently 71% of the elderly population resides in urban areas while 29% are in rural areas.</p>
+            <p>With the <span class="text-teal-500 font-semibold">changing times</span>, children start moving to different cities or even different countries with the aim of gaining better living aspects leaving behind their parents for whom it is not possible to adjust with the lifestyle changes which migration brings.</p>
+            <p> In some cases while the parents agree to move in with their children, in other cases, it is  that when parents age children starts to see them as a burden and a responsibility that they want to get rid off which lead them in abandoning their own parents.</p>
+        </div>
+    </section>
+    <!-- Effects of social isolation -->
+    <section class="container w-full max-w-6xl mx-auto mt-20 lg:mt-60">
+        <h1 class="text-2xl text-center uppercase underline underline-offset-2 decoration-teal-400 mb-14 xl:text-3xl">
+            Effects of Social isolation
+        </h1>
+        <div class="text-slate-600">
+            <img src="images/on_site/social-iso.jpg" class="mb-8 rounded-lg" alt="">
+            <!-- <p class="mb-4 text-2xl">Health effects of social isolation:</p> -->
+            <ol class="list-disc">
+                <li class="mb-4 text-lg tracking-wide leading-8"><span class="text-teal-500 font-semibold">Loneliness:</span> Research has linked social isolation and loneliness to higher risks for a variety of physical and mental conditions</li>
+                    <li><span class="text-teal-500 font-semibold text-lg mb-2">High blood pressure</span></li>
+                    <li><span class="text-teal-500 font-semibold text-lg mb-2">Heart disease</span></li>
+                    <li><span class="text-teal-500 font-semibold text-lg mb-2">Obesity</span></li>
+                    <li><span class="text-teal-500 font-semibold text-lg mb-2">Weakened immune system</span></li>
+                    <li><span class="text-teal-500 font-semibold text-lg">Anxiety, Depression, Cognitive decline, Alzheimer</span></li>
+            </ol>
+
+        </div>
+    </section>
+    <!-- Taking care of parents -->
+    <section class="container w-full max-w-6xl mx-auto mt-20 lg:mt-60">
+        <h1 class="text-2xl text-center uppercase underline underline-offset-2 decoration-teal-400 mb-14 xl:text-3xl">
+            Is taking care of your parents by Maids enough?
+        </h1>
+        <div class="text-lg leading-8 tracking-wide text-slate-600">
+            <img src="images/on_site/maid.jpg" class="mb-8 rounded-lg" alt="">
+            <p class="mb-4">All human beings <span class="text-teal-500 font-semibold">need</span> friends apart from family. Maid servants are not friends or family.</p>
+            <p class="mb-4">Isolation is actually <span class="text-teal-500 font-semibold">decreasing</span> their life span.</p>
+            <p class="mb-4">Day to day activities become more <span class="text-teal-500 font-semibold">difficult</span> as years pass.</p>
+            <p class="mb-4">They are more prone to bullying and emotional <span class="text-teal-500 font-semibold">trauma</span>.</p>
+            <p>Simply calling every week is <span class="text-teal-500 font-semibold">not</span> good enough. Senior citizens need a <span class="text-teal-500 font-semibold">life</span> too.</p>
+
+        </div>
+    </section>
+    <!-- Senior communities -->
+    <section class="container w-full max-w-6xl mx-auto mt-20 lg:mt-60 text-lg">
+        <h1 class="text-2xl text-center uppercase underline underline-offset-2 decoration-teal-400 mb-14 xl:text-3xl">
+            Senior communities: An Emerging Reality
+        </h1>
+        <img src="images/on_site/senior.jpg" class="rounded-lg" alt="">
+        <div class="mt-10 flex flex-col gap-y-4 text-slate-600 lg:flex-row lg:flex-wrap lg:max-w-3xl lg:mx-auto">
+            <div class="flex lg:basis-1/2">
+                <!-- prettier ignore -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+                  </svg>
+                <p>Independent nuclear families rising.</p>
+            </div>
+            <div class="flex lg:basis-1/2">
+                <!-- prettier ignore -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+                  </svg>
+                <p>More parents living independently.</p>
+            </div>
+            <div class="flex lg:basis-1/2">
+                <!-- prettier ignore -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+                  </svg>
+                <p>Decline of joint families.</p>
+            </div>
+            <div class="flex lg:basis-1/2">
+                <!-- prettier ignore -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+                  </svg>
+                <p>Seclusion of old people rising.</p>
+            </div>
+            <!-- <div class="flex">
+                prettier ignore
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+                  </svg>
+                <p>Pollution adding to age-related problems.</p>
+            </div> -->
+            <div class="flex lg:basis-1/2">
+                <!-- prettier ignore -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+                  </svg>
+                <p>Limited mobility in cities.</p>
+            </div>
+            <div class="flex lg:basis-1/2">
+                <!-- prettier ignore -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+                  </svg>
+                <p>Lack of trained assisting care.</p>
+            </div>
+            <!-- <div class="flex">
+                prettier ignore
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+                  </svg>
+                <p>Death of spouse hastens the ill-health of survivor.</p>
+            </div> -->
+
+        </div>
+    </section>
+    <!-- Benefits of senior communities -->
+    <section class="container w-full max-w-6xl mx-auto mt-20 lg:mt-60 text-lg">
+        <h1
+            class="text-2xl text-center uppercase underline underline-offset-2 decoration-teal-400 mb-14 xl:text-3xl">
+            Senior communities: <span class="lowercase">How do they help?</span>
+        </h1>
+        <img src="images/on_site/home_04.jpg" class="rounded-lg" alt="">
+        <div class="mt-10 flex flex-col gap-y-4 text-slate-600 lg:flex-row lg:flex-wrap lg:max-w-3xl lg:mx-auto">
+            <div class="flex lg:basis-1/2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                  </svg>
+                  <p>Slows down Neurological detioration</p>
+            </div>
+            <div class="flex lg:basis-1/2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                  </svg>
+                <p>Increases joint mobility</p>
+            </div>
+            <div class="flex lg:basis-1/2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                  </svg>
+                  <p>Decreases depression</p>
+            </div>
+            <div class="flex lg:basis-1/2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                  </svg>
+                  <p>Decreases cardiac episodes</p>
+            </div>
+            <div class="flex lg:basis-1/2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                  </svg>
+                  <p>Lesser dependence on children.</p>
+            </div>
+            <div class="flex lg:basis-1/2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                  </svg>
+                  <p>New friends at a late age</p>
+            </div>
+            <div class="flex lg:basis-1/2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                  </svg>
+                  <p>Frankly: It increases your life</p>
+            </div>
+            
+            
+            
+            
+            
+        </div>
+        
+    </section>
+    <!-- Pricing -->
+    <section class="container w-full max-w-6xl mx-auto mt-20 lg:mt-60 mb-20 lg:mb-40">
+            <h1
+                class="text-2xl text-center uppercase underline underline-offset-2 decoration-teal-400 mb-8 xl:text-3xl">
+                Pricing
+            </h1>
+            
+            <section class="mx-auto mt-6 lg:max-w-4xl md:justify-between">
+                <div class="rounded-lg flex flex-col items-center text-center gap-8 mb-8 sm:flex-row sm:justify-between sm:items-center sm:px-16">
+                    <div class="bg-teal-100 py-8 px-3 rounded-lg shadow-md">
+                        <p class="text-2xl font-semibold mb-4"><span class="text-teal-600">Twin sharing</span> (for safety purpose)
+                            in a 1-BHK.</p>
+                            <p class="text-xl mb-6">&#8377; 45,000* / month / resident.</p>
+                            <p class="text-sm">*&nbsp;for first 10 residents.</p>
+                    </div>
+                    <div class="bg-teal-100 py-8 px-3 rounded-lg shadow-md">
+                        <p class="text-2xl font-semibold mb-4"><span class="text-teal-600">Twin sharing</span> (for safety purpose)
+                            in a 1-BHK.</p>
+                            <p class="text-xl mb-6">&#8377; 55,000* / month / resident.</p>
+                            <p class="text-sm">*&nbsp;after the first 10 residents.</p>
+                    </div>
+                </div>
+                <div class="text-center md:w-80 mx-auto">
+                    <a
+                    href="tel:+9322689844"
+                    class="block rounded-md px-16 py-4 text-2xl text-white bg-teal-600"
+                    >Book Now</a
+                >
+                </div>
+              </section>
+    </section>
+        <!-- Footer -->
+        <footer class="container py-4 flex justify-center gap-5 border-t max-w-6xl mx-auto mt-10">
+            <div>
+                <p class="text-sm">Copyright &copy;
+                    <script text="javascript">
+                        document.write(new Date().getFullYear());
+                    </script>
+                </p>
+            </div>
+            <div>
+                <p class="text-sm">Brookside Homes</p>
+            </div>
+        </footer>
+
+        <script>
+            const btn = document.querySelector("button.mobile-menu-button");
+            const menu = document.querySelector(".mobile-menu");
+            btn.addEventListener("click", () => {
+              menu.classList.toggle("hidden");
+            });
+          </script>
+</body>
+
+</html>
